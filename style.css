@@ -1,0 +1,1763 @@
+body{ 
+   margin: 0;
+   padding: 0;
+   font-family: 'Fasthand', cursive;
+   font-family: 'Inter', sans-serif;
+   font-family: 'Readex Pro', sans-serif;
+   font-size: 15px;
+   line-height: 1.6;
+   color: #333;
+   background: #f5f5f5;
+   box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logo{
+    display: inline-block;
+    margin-top: 31px;
+    font-family: 'Fasthand', cursive;
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.nav{
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 40px;
+}
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 33px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+.nav__link:hover{
+    transform: scale(0.3s);
+    color: #29048f;
+    text-decoration: underline;
+}
+
+.icons{
+    display: flex;
+    min-width: 0;
+    margin-top: 40px;
+    margin-right: 80px;
+}
+
+.icons a i {
+    margin-left: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.icons a i:hover{
+    transform: 0.2s;
+    color: #041d8f;
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+ .intro{
+    height: 550px;
+    margin-top: 60px;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 80px;
+    background: #DCE5E2;
+    border-radius: 15px;
+}
+
+.intro1{
+    height: 550px;
+    margin-top: 60px;
+    display: flex;
+    margin: 80px;
+    background: rgb(255, 254, 182);
+    border-radius: 15px;
+}
+
+.intro__title{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    margin-top: 80px;
+    margin-left: 76px;
+    width: 85%;
+}
+
+.intro__suptitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 76px;
+}
+
+.intro__btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 60px;
+    margin-left: 119px;
+}
+
+.intro__btn a {
+    text-decoration: none;
+    color: #000;
+    padding: 14px 54px;
+    border: 1px #000 solid;
+    border-radius: 10px;
+    transform: 0.1s;
+}
+
+.intro__btn a:hover {
+    background: #8c93b4;
+    transition: 0.1s;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 20px
+} 
+
+.intro__title1{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    margin-top: 80px;
+    margin-left: 76px;
+    width: 85%;
+}
+
+.intro__img1{
+    margin-top: 50px;
+    margin-right: 80px;  
+}
+
+.intro2{
+    height: 550px;
+    margin-top: 60px;
+    display: flex;
+    margin: 80px;
+    background: rgb(253, 204, 204);
+    border-radius: 15px;
+}
+
+.intro__title2{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    margin-top: 80px;
+    margin-left: 76px;
+    width: 85%;
+}
+
+.intro3{
+    height: 550px;
+    margin-top: 60px;
+    display: flex;
+    margin: 80px;
+    background: rgb(253, 213, 248);
+    border-radius: 15px;
+}
+
+.intro__title3{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    margin-top: 80px;
+    margin-left: 76px;
+    width: 85%;
+}
+
+.intro__img2{
+    width: 50%;
+    margin-top: 50px;
+    margin-right: 145px;  
+}
+
+.intro__img3{
+    margin-top: -55px;
+    margin-right: 0px;  
+}
+
+.slick-list{
+    overflow: hidden;
+}
+
+.slick-track{
+    display: flex;
+}
+
+.slider{
+    position: relative;
+    padding: 0px 60px;
+}
+
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0px;
+    width: 30px;
+    height: 50px;
+    border: 0;
+    padding-right: 50px;
+}
+
+button.slick-prev.slick-arrow {
+    top: 50%;
+    background: url(./img/left.svg) no-repeat;
+    transform: rotate(270deg);
+}
+
+button.slick-next.slick-arrow {
+    top: 50%;
+    background: url(./img/right.svg) no-repeat;
+    transform: rotate(90deg);
+}
+
+.slider .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .slick-dots li{
+    list-style: none;
+    margin: 0 10px;
+    margin-bottom: 85px;
+}
+
+.slider .slick-dots button{
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+.slider .slick-dots button:hover{
+    background: #f5f5f5;
+    transform: 0.5s;
+    cursor: pointer;
+}
+
+li.slick-active{
+    background: transparent;
+    border: 1px #000 solid;
+    border-radius: 100%;
+}
+
+/* ---------------------------Categories------------------------------- */
+
+.intro__cat h1{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px; 
+}
+
+.intro__cat h2{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.element1{
+    display: flex;
+}
+
+.col1 {
+    padding: 40px;
+    width: 550px;
+    margin-bottom: 72px;
+    border-radius: 35px;
+    border: rgb(153, 153, 153) 1px solid;
+    transition: all 0.4s ease;
+}
+
+.col1:hover{
+    transform: scale(1.05);
+    background: linear-gradient(rgb(238, 229, 229), rgb(213, 209, 253));
+    border: none;
+}
+
+.categories__photo {
+    margin-top: -40px;
+}
+
+.laptop__text {
+    position: relative;
+    text-align: right;
+}
+
+.laptop__text h2{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.laptop__text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.col2 {
+    display: flex;
+    width: 639px;
+    border: #000 1px solid  radial-gradient(#000, #DCE5E2);
+    margin-bottom: 72px;
+    border-radius: 35px;
+    border: rgb(153, 153, 153) 1px solid;
+    transition: all 0.4s ease;
+}
+
+.col2:hover{
+    transform: scale(1.05);
+    background: linear-gradient(rgb(245, 250, 176), rgb(253, 209, 246));
+    border: none;
+}
+
+.categories__watch img{
+    height: 100%;
+    width: 100%;
+}
+.watch__text h3{
+    margin-top: 40%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.watch__text h2{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.categories__col2{
+    display: flex;
+    width: 312px;
+    border: #000 1px solid  radial-gradient(#000, #DCE5E2);
+    margin-bottom: 72px;
+    border-radius: 35px;
+    border: rgb(153, 153, 153) 1px solid;
+    transition: all 0.6s ease;
+}
+
+.categories__col2:hover{
+    transform: scale(1.05);
+    background: linear-gradient(rgb(245, 250, 176), rgb(253, 209, 246));
+    border: none;
+}
+
+.col3{
+    width: 312px;
+    margin-left: 30px;
+    border-radius: 35px;
+    border: rgb(153, 153, 153) 1px solid;
+    max-height: 830px;
+    transition: all 0.6s ease;
+}
+
+.col3:hover{
+    transform: scale(1.05);
+    background: linear-gradient(rgb(176, 177, 250), rgb(209, 253, 218));
+    border: none;
+}
+
+.categories__phone{
+    margin-top: 140px;
+    position: relative;
+}
+
+.categories__phone img{
+    position: absolute;
+    right: 0px;
+}
+
+.phone__text{
+    margin-top: 550px;
+    text-align: center;
+    width: 75%;
+    margin-left: 50px;
+}
+
+.phone__text h2{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.phone__text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.col4{
+    margin-left: 40px;
+    width: 312px;
+    border-radius: 35px;
+    border: rgb(153, 153, 153) 1px solid;
+    max-height: 830px;
+    transition: all 0.6s ease;
+}
+
+.col4:hover{
+    transform: scale(1.05);
+    background: linear-gradient( rgb(209, 253, 218),rgb(250, 176, 244));
+    border: none;
+}
+
+.categories__ipad{
+    margin-top: 100px;
+    position: relative;
+}
+
+.ipad__text{
+    margin-top: 120px;
+    text-align: center;
+    width: 75%;
+    margin-left: 50px;
+}
+
+.ipad__text h2{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.ipad__text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+/* SELL------------------------------------------- */
+
+.container .intro__cat{
+    justify-content: center;
+    text-align: center;
+}
+
+.sell{
+    display: flex;   
+    position: relative;
+    padding: 0px 60px;
+    margin-bottom: 70px;
+}
+
+.sell__item{
+    margin-right: 70px;
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+}
+
+.sell__text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 10px;
+}
+
+.sell__title{
+    margin-top: 37px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.sell__price{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.sell__img__14{
+    width: 247px;
+    height: 225px;
+}
+
+.sell__img__samsung{
+    width: 247px;
+    height: 235px;
+}
+
+.sell__img__playstation{
+    width: 360px;
+    height: 235px;
+}
+
+.sell-list{
+    overflow: hidden;
+}
+
+.slick-track{
+    display: flex;
+}
+
+.sell .slick-arrow{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    font-size: 0px;
+    width: 40px;
+    height: 60px;
+    border: 0;
+}
+
+button.slick-prev.slick-arrow {
+    left: 30px;
+    background: url(./img/left.svg) no-repeat;
+    transform: rotate(270deg);
+}
+
+button.slick-next.slick-arrow {
+    background: url(./img/right.svg) no-repeat;
+    right: 30px;
+    transform: rotate(90deg);
+}
+
+.best{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.best__item {
+    text-align: center;
+    width: 413px;
+    height: 453px;
+    margin-right: 50px;
+    background: #e1e2e4;
+    border-radius: 16px;
+}
+
+.best__title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 42px;
+}
+
+.best__text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    margin-top: 10px;
+}
+
+.best__btn {
+    text-decoration: none;
+    margin-left: 60px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.best__btn:hover{
+    color: #e1e2e4;
+    transition: 0.7s;
+}
+
+.best__btn a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding: 15px 40px;
+    border: 1px solid #000000;
+    border-radius: 200px;
+    transform: 0.7s;
+}
+
+.best__btn a:hover{
+    background: #000;
+    color: #e1e2e4;
+    transition: 0.7s;
+}
+
+.best__img {
+    margin-top: 30px;
+}
+
+.ideas{
+    display: flex;
+}
+
+.ideas__block{
+    margin-left: 40px;
+    width: 100%;
+}
+
+.ideas__text{
+    margin-bottom: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.ideas__link{
+    margin-top: 75px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.ideas__link a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.ideas__link i {
+    margin-left: 5px;
+    font-size: 22px;
+    line-height: 29px;
+}
+
+.ideas__link:hover{
+    color: rgb(212, 38, 96);
+    text-decoration: underline;
+}
+
+.search {
+    justify-content: center;
+}
+
+.search__title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 52px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.search__string{
+    text-align: center;
+}
+
+.search__string input {
+    padding: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    padding-right: 400px;
+    background: #F8F9FA;
+    border: 1px solid #C5C5C5;
+    border-radius: 100px;
+    margin-bottom: 40px;
+}
+
+.search__btn {
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 100px ;
+    border: 1px solid #C5C5C5;
+    background: none;
+    cursor: pointer;
+    transform: .6s;
+}
+  
+.search__btn:hover {
+    transition: 0.6s;
+    background: #000;
+    color: aliceblue;
+}
+
+.search__block{
+    display: flex;
+    justify-content: center;
+}
+
+.search__item{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.search__box{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.email{
+    text-align: center;
+    max-width: 935px;
+    margin: 0 auto;
+    justify-content: center;
+    background: #DCE5E2;
+    border-radius: 16px;
+}
+
+.email__title{
+    margin-top: 70px;
+    padding-top: 50px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+}
+
+.email__subtitle{
+    padding-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.email__img{
+    margin-top: 15px;
+}
+
+.search__email input {
+    margin-top: 15px;
+    padding: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    padding-right: 200px;
+    background: #F8F9FA;
+    border: 1px solid #C5C5C5;
+    border-radius: 100px;
+    margin-bottom: 40px;
+}
+
+.email__btn {
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 100px ;
+    border: 1px solid #C5C5C5;
+    cursor: pointer;
+    transform: .6s;    
+    background: #000;
+    color: aliceblue;
+}
+
+.email__btn:hover {
+    transition: 0.6s;
+    background: none;
+    color: #000;
+    border: #000000 1px solid;
+}
+
+footer{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 0px;
+    justify-content: space-between;
+}
+
+hr{
+    opacity: 55%;
+}
+
+.footer__logo{
+    margin-top: 50px;
+    width: 25%;
+}
+
+.logo__text{
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer__title{
+    margin-top: 50px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.footer__category{
+    margin-top: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.block__author{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.made{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;  
+    margin-bottom: 15px;
+}
+
+.made span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.by{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;  
+    margin-bottom: 15px;
+}
+
+.by span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media (max-width: 1368px) {
+    
+    .intro__title{
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 70px;
+        margin-top: 80px;
+        width: 100%;
+        margin-top: 80px;
+    }
+    
+    .intro__title1{
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 70px;
+        margin-top: 80px;
+        width: 100%;
+        margin-top: 80px;
+    }
+    
+    .intro__btn{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 54px;
+        margin-left: 100px;
+    }
+    
+}
+
+@media (max-width: 1250px) {
+        
+    .intro__title{
+        line-height: 38px;
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        margin-top: 80px;
+        margin-left: 40px;
+        width: 150%;
+        margin-top: 80px;
+    }
+    
+    .intro__suptitle{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    
+    .intro__btn{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 33px;
+        margin-left: 90px;
+    }
+    
+    .intro__btn a {
+        text-decoration: none;
+        color: #000;
+        padding: 7px 25px;
+        border: 1px #000 solid;
+        border-radius: 10px;
+        transform: 0.1s;
+    }    
+    
+    .intro__text{
+        margin-top: -30px;
+    }
+    
+    .intro__title1{
+        line-height: 28px;
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        margin-top: 80px;
+        margin-left: 40px;
+        width: 90%;
+        margin-top: 80px;
+    }
+    
+    .intro{
+        height: 408px;
+        border-radius: 105px;
+    }
+    
+    .intro1{
+        height: 408px;
+        border-radius: 105px;
+    }
+    
+    .intro2{
+        height: 408px;
+        border-radius: 105px;
+    }
+    
+    .intro3{
+        height: 408px;
+        border-radius: 105px;
+    }
+    
+    .intro__img{
+        margin-right: 50px;
+        margin-top: 70px;
+    }
+    
+    .intro__photo img{
+        width: 400px;
+    }
+    
+    .intro__img1{
+        margin-top: 50px;
+        margin-right: 0px;  
+    }
+    
+    .intro__photo1 img{
+        width: 300px;
+    }
+    
+    .intro__img2{
+        margin-top: 80px;
+        margin-right: 10px;  
+    }
+    
+    .intro__photo2 img{
+        width: 400px
+    }
+    
+    .intro__img3{
+        margin-right: 0px;
+    }
+    
+    .intro__photo3 img{
+        width: 400px;
+        margin-top: 50px;
+    }
+    
+    .col1{
+        width: 270px;
+        margin-left: 70px;
+    }
+    
+    .categories__photo img{
+        width: 300px;
+    }
+    
+    .laptop__text h3{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    
+    .laptop__text h2{
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+    }
+    
+    .col2{
+        width: 350px;
+        height: 150px;
+        margin-left: 70px;
+    }
+    
+    .categories__watch img{
+        width: 200px;
+        height: 150px;
+    }
+    
+    .watch__text h3{
+        margin-top: 30%;
+        margin-left: 20px;
+        font-size: 11px;
+    }
+    
+    .watch__text h2{
+        margin-left: 20px;
+        font-weight: 400;
+        font-size: 22px;
+    }
+    
+    .col3{
+        width: 210px;
+        height: 555px;
+    }
+    
+    .categories__phone img{
+        width: 200px;
+    }
+    
+    .phone__text{
+        text-align: center;
+        margin-top: 420px;
+        margin-left: 40px;
+    }
+    
+    .phone__text h2{
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 38px;
+    }
+    
+    .phone__text h3{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 19px;
+    }
+    
+    .col4{
+        margin-left: 40px;
+        width: 210px;
+        border-radius: 35px;
+        border: rgb(153, 153, 153) 1px solid;
+        transition: all 0.6s ease;
+        height: 555px;
+    }
+    
+    .categories__ipad{
+        margin-top: 100px;
+        position: relative;
+    }
+    
+    .categories__ipad img{
+        width: 210px;
+    }
+    
+    .ipad__text{
+        margin-top: 120px;
+        text-align: center;
+    }
+    
+    .ipad__text h2{
+        margin-right: 30px;
+        font-size: 22px;
+    }
+    
+    .ipad__text h3{
+        margin-right: 30px;
+        font-size: 11px;
+    }
+    
+    .sell__text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 17px;
+        margin-bottom: 5px;
+    }
+    
+    .sell__item img{
+        width: 70%;
+        height: 30%;
+    }
+    
+    .sell__price{
+        font-size: 14px; 
+        font-style: italic;
+    }
+    
+    .best__item{
+        margin-left: 50px;
+        height: 400px;
+        width: 250px;
+    }
+    
+    .best__title{
+        font-size: 11px;
+    }
+    
+    .best__text{
+        font-size: 20px;
+    }
+    
+    .best__btn a{
+        margin-left: 0px;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+    
+    .best__item img{
+        width: 70%;
+    }
+    
+    .ideas__text{
+        font-size: 14px;
+        font-style: italic;
+    }
+    
+    .ideas__photo{
+        margin-left: 30px;
+        width: 90%;
+    }
+    
+    .ideas__link{
+        margin-top: 30px;
+    }
+    
+    .footer__title{
+        font-size: 15px;
+    }
+    
+    .footer__category{
+        font-size: 13px;
+    }
+    
+    .made{
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;  
+        margin-bottom: 15px;
+    }
+    
+    .made span{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .by{
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;  
+        margin-bottom: 15px;
+    }
+    
+    .by span{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }   
+}
+
+@media (max-width: 825px) {
+    
+    .logo{
+        font-size: 15px;
+    }
+    
+    .nav__link{
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    
+    .intro__title{
+        line-height: 20px;
+        font-family: 'Readex Pro';
+        font-weight: 700;
+        font-size: 17px;
+        margin-top: 80px;
+        margin-left: 40px;
+        width: 100%;
+        margin-top: 80px;
+    }
+    
+    .intro__suptitle{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 40px;
+    }   
+     
+    .intro__btn{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 33px;
+        margin-left: 90px;
+    }    
+    
+    .intro__text{
+        margin-top: -30px;
+    }
+        
+    .intro__title1{
+        line-height: 20px;
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        margin-top: 80px;
+        margin-left: 40px;
+        width: 90%;
+        margin-top: 80px;
+    }    
+    
+    .intro{
+        height: 280px;
+        border-radius: 105px;
+        margin-top: 100px;
+    }    
+    
+    .intro1{
+        height: 280px;
+        border-radius: 105px;
+        margin-bottom: 0px;
+    }    
+    
+    .intro2{
+        width: 10%;
+        height: 280px;
+        border-radius: 105px;
+        margin-bottom: 0px;
+    }    
+    
+    .intro3{
+        height: 280px;
+        border-radius: 105px;
+        margin-bottom: 0px;
+    }    
+    
+    .intro__img{
+        margin-right: 90px;
+        margin-top: 40px;
+    }
+    
+    .intro__photo img{
+        width: 280px;
+    }   
+    
+    .intro__img1{
+        margin-top: 50px;
+        margin-right: 0px;  
+    }
+    
+    .intro__photo1 img{
+        width: 200px;
+    }  
+    
+    .intro__img2{
+        margin-top: 80px;
+        margin-right: 10px;  
+    }
+    
+    .intro__photo2 img{
+        width: 200px
+    }
+    
+    .intro__img3{
+        margin-right: 0px;
+    }
+    
+    .intro__photo3 img{
+        width: 230px;
+        margin-top: 100px;
+    }
+    
+    .slick-dots{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    button.slick-prev.slick-arrow {
+        left: 80px;
+        height: 25px;
+        background: url(./img/left.svg) no-repeat;
+        transform: rotate(270deg);
+    }
+    
+    button.slick-next.slick-arrow {
+        background: url(./img/right.svg) no-repeat;
+        height: 25px;
+        top: 245px;
+        right: 85px;
+        transform: rotate(90deg);
+    }  
+    
+    .col1{
+        width: 180px;
+        margin-left: 70px;
+        height: 130px;
+        margin-bottom: 20px;
+    }
+    
+    .categories__photo img{
+        width: 200px;
+    }
+    
+    .laptop__text h3{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+    }
+    
+    .laptop__text h2{
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    .col2{
+        width: 260px;
+        height: 130px;
+        margin-left: 70px;
+    }
+    
+    .categories__watch img{
+        width: 170px;
+        height: 130px;
+    }
+    
+    .watch__text h3{
+        margin-top: 30%;
+        margin-left: 10px;
+        font-size: 11px;
+    }
+    
+    .watch__text h2{
+        margin-left: 10px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    
+    .col3{
+        width: 150px;
+        height: 360px;
+    }
+    
+    .categories__phone img{
+        width: 135px;
+    }
+    
+    .phone__text{
+        text-align: center;
+        margin-top: -100px;
+        margin-left: 22px;
+    }
+    
+    .phone__text h2{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    
+    .phone__text h3{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 19px;
+    }
+    
+    .col4{
+        margin-left: 30px;
+        width: 150px;
+        border-radius: 35px;
+        border: rgb(153, 153, 153) 1px solid;
+        transition: all 0.6s ease;
+        height: 360px;
+    }
+    
+    .categories__ipad{
+        margin-top: 50px;
+    }
+    
+    .categories__ipad img{
+        width: 150px;
+    }
+    
+    .ipad__text{
+        margin-top: 10px;
+    }
+    
+    .ipad__text h2{
+        margin-right: 30px;
+        font-size: 15px;
+    }
+    
+    .ipad__text h3{
+        margin-right: 30px;
+        font-size: 10px;
+    }
+    
+    .intro__cat h1{
+        font-size: 28px;
+    }
+    
+    .intro__cat h2{
+        font-size: 10px;
+    }
+    
+    .sell__text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 17px;
+        margin-bottom: 5px;
+    }
+    
+    .sell__item img{
+        width: 100%;
+    }
+    
+    .sell__title{
+        font-size: 18px;
+    }
+    
+    .sell__price{
+        font-size: 14px; 
+        font-style: italic;
+    }
+    
+    button.slick-prev.slick-arrow {
+        left: 0px;
+        height: 25px;
+        top: 45%;
+        background: url(./img/left.svg) no-repeat;
+        transform: rotate(270deg);
+    }
+    
+    button.slick-next.slick-arrow {
+        background: url(./img/right.svg) no-repeat;
+        height: 25px;
+        top: 50%;
+        right: 0px;
+        transform: rotate(90deg);
+    }
+    
+    .best__item{
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 300px;
+        width: 200px;
+    }
+    
+    .best__title{
+        font-size: 11px;
+    }
+    
+    .best__text{
+        font-size: 20px;
+    }
+    
+    .best__btn{
+        margin-top: 10px;
+    }
+    
+    .best__btn a{
+        margin-left: -50px;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+    
+    .best__item img{
+        width: 60%;
+    }
+    
+    .best__img{
+        margin-bottom: -10px;
+        margin-top: 10px;
+    }   
+
+}
+
+@media (max-width: 620px) {
+    
+    .logo{
+        font-size: 15px;
+    }
+    
+    .nav__link{
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    
+    .intro__title{
+        line-height: 20px;
+        font-family: 'Readex Pro';
+        font-weight: 700;
+        font-size: 17px;
+        margin-top: 80px;
+        margin-left: 40px;
+        width: 100%;
+        margin-top: 80px;
+    }
+    
+    .intro__suptitle{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 40px;
+    }   
+     
+    .intro__btn{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 33px;
+        margin-left: 90px;
+    }    
+    
+    .intro__text{
+        margin-top: -30px;
+    }
+        
+    .intro__title1{
+        line-height: 20px;
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        margin-top: 80px;
+        margin-left: 40px;
+        width: 90%;
+        margin-top: 80px;
+    }    
+    
+    .intro{
+        height: 280px;
+        border-radius: 105px;
+        margin-top: 100px;
+    }    
+    
+    .intro1{
+        height: 280px;
+        border-radius: 105px;
+        margin-bottom: 0px;
+    }    
+    
+    .intro2{
+        width: 10%;
+        height: 280px;
+        border-radius: 105px;
+        margin-bottom: 0px;
+    }    
+    
+    .intro3{
+        height: 280px;
+        border-radius: 105px;
+        margin-bottom: 0px;
+    }    
+    
+    .intro__img{
+        margin-right: 90px;
+        margin-top: 40px;
+    }
+    
+    .intro__photo img{
+        width: 280px;
+    }   
+    
+    .intro__img1{
+        margin-top: 50px;
+        margin-right: 0px;  
+    }
+    
+    .intro__photo1 img{
+        width: 200px;
+    }  
+    
+    .intro__img2{
+        margin-top: 80px;
+        margin-right: 10px;  
+    }
+    
+    .intro__photo2 img{
+        width: 200px
+    }
+    
+    .intro__img3{
+        margin-right: 0px;
+    }
+    
+    .intro__photo3 img{
+        width: 230px;
+        margin-top: 100px;
+    }
+    
+    .slick-dots{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    button.slick-prev.slick-arrow {
+        left: 0px;
+        height: 25px;
+        background: url(./img/left.svg) no-repeat;
+        transform: rotate(270deg);
+    }
+    
+    button.slick-next.slick-arrow {
+        background: url(./img/right.svg) no-repeat;
+        height: 25px;
+        top: 245px;
+        right: 0px;
+        transform: rotate(90deg);
+    }     
+}
